@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  margin-bottom: 10px;
+}
+
+#board div {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+#pagination span {
+  margin-right: 5px;
+}
+
+#pagination a {
+  text-decoration: none;
+  color: blue;
+}
+
+#pagination a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

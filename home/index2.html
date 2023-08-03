@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>게시판</title>
+    <link rel="stylesheet" href="./css/style2.css" />
+  </head>
+  <body>
+    <h1>게시판</h1>
+    <button onclick="sortByRecommendation()">추천순</button>
+    <button onclick="sortByLatest()">최신순</button>
+    <button onclick="sortByOldest()">등록순</button>
+    <table id="boardTable">
+      <tr>
+        <th>번호</th>
+        <th>제목</th>
+        <th>조회수</th>
+        <th>추천수</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td><a href="https://example.com/post1" class="postLink" target="_blank">게시글 1</a></td>
+        <td>100</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td><a href="https://example.com/post2" class="postLink" target="_blank">게시글 2</a></td>
+        <td>50</td>
+        <td>5</td>
+      </tr>
+      <!-- 추가적인 게시물을 위해 더 많은 행을 추가하세요 -->
+    </table>
+
+    <script src="./script/main2.js" defer></script>
+  </body>
+</html>
